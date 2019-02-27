@@ -410,12 +410,13 @@
       $blend-color-4: #fb909a;
       $blend-color-5: #1c1cc9;
     .title {
-      font-size: 11vw;
+      font-size: 6vw;
       position: relative;
       font-family: 'Muli', sans-serif;
       font-weight: 800;
       line-height: 1.3;
       letter-spacing: .2px;
+      text-align: center;
       color: $color-title;
       animation-name: glitch-anim-text;
       animation-duration: 4s;
