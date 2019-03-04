@@ -5080,8 +5080,8 @@ body.search-results .main-wrapper > .container-fluid > .row > .col-xs-12{
 
 .single-pagination {
   position: relative;
-  padding: 15px 0;
-  margin-bottom: 65px;
+  padding: 30px 0;
+  margin-bottom: 0px;
   &::before {
     display: table;
     content: '';
@@ -6902,9 +6902,6 @@ table th {
     &.main {
       margin-bottom: 30px;
     }
-  }
-  .single-pagination {
-    padding-top: 0px;
   }
   .form-group {
     margin-bottom: 0;
@@ -10754,7 +10751,7 @@ p.cart-empty {
   .info-item-wrap {
     .item {
       display: inline-block;
-      margin-right: 50px;
+      margin-right: 40px;
     }
     .name {
       margin-bottom: 13px;
@@ -10772,9 +10769,6 @@ p.cart-empty {
       letter-spacing: .2px;
       text-decoration: none;
     }
-  }
-  .single-pagination {
-    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 991px) {
@@ -10801,11 +10795,14 @@ p.cart-empty {
     .title {
       margin-top: 20px;
     }
+    .item {
+      margin: 20px;
+    }
   }
 }
 @media only screen and (max-width: 991px) {
   .simple_gallery {
-    margin-top: 40px;
+    margin-top: 80px;
     .text {
       padding: 0 15px;
     }
@@ -11188,8 +11185,8 @@ p.cart-empty {
       font-weight: 800;
       letter-spacing: .2px;
     }
-    .item {
-      margin-bottom: 50px;
+    .urbanitem {
+      margin-bottom: 40px;
     }
     .name {
       margin-bottom: 15px;
@@ -11337,6 +11334,7 @@ p.cart-empty {
 @media only screen and (max-width: 1199px) {
   .urban {
     .banner-wrap {
+      {padding-top: 80px;}
       .img-wrap,
       .main-info-wrap {
         width: 50%;
